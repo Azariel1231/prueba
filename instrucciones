@@ -1,0 +1,10 @@
+si no se ejecuta utilizar:
+.\EV2\Scripts\Activate.ps1
+python app.py
+ he instalar 
+ 
+pip install flask
+pip install pandas
+pip install tensorflow
+pip install numpy
+*pip install tensorflow==2.13.0

@@ -15,12 +15,12 @@ $(function () {
         console.log(input_data)
         $.ajax({
             type: 'POST',
-            url: '/predict_emotion',
+            url: '/predict-emotion',
             data: JSON.stringify(input_data),
             dataType: "json",
             contentType: 'application/json',
             success: function (result) {
-                
+
                 predicted_emotion = result.data.predicted_emotion
                 emo_url = result.data.predicted_emotion_img_url
 
